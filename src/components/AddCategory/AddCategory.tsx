@@ -1,13 +1,9 @@
 import { FormAddCategory } from "./FormAddCategory";
-import { Header } from "./Header";
 
-const AddCaetgory = () => {
+export const AddCategory = () => {
   return (
-    <div>
-      <Header />
+    <div className="bg-white py-6 sm:py-8 lg:py-12">
       <FormAddCategory />
     </div>
   );
 };
-
-export default AddCaetgory;
